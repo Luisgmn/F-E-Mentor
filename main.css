@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+    min-height: 100vh;
+}
+
+.tarjeta {
+    width: 295px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 10px 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    transition: all ease-in-out 0.2s;
+}
+
+.tarjeta img {
+    width: 260px;
+    border-radius: 10px;
+}
+
+.tarjeta h3 {
+    padding: 20px 0;
+    margin: 0 10px 0;
+}
+
+.tarjeta small {
+    color: hsl(220, 15%, 55%);
+    margin: 0 10px 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 30px;}
+.attribution a { color: hsl(228, 45%, 44%); }
